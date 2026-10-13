@@ -12,6 +12,7 @@ Software is used to create applications and solve problems. I want to learn how 
 
 Artificial Intelligence (AI) helps computers learn, solve problems, and perform tasks. I want to understand how AI can help people in everyday life.
 ## Mobile
+Mobile technology allows people to communicate, learn, and access information using smartphones. I want to learn how mobile applications make life easier.
 
 ## Networking
 
