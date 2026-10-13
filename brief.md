@@ -15,6 +15,7 @@ Artificial Intelligence (AI) helps computers learn, solve problems, and perform 
 Mobile technology allows people to communicate, learn, and access information using smartphones. I want to learn how mobile applications make life easier.
 
 ## Networking
+Networking connects computers and devices so they can share information and resources. I want to understand how computer networks help people communicate.
 
 ## Cybersecurity
 
