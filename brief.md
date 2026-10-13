@@ -23,5 +23,6 @@ Cybersecurity protects computers, networks, and personal information from online
 Data is information that can be collected, organized, and analyzed. I want to learn how data helps people understand problems and make better decisions.
 
 ## Misconception in My Track
+One misconception about my learning track is that AI can do everything without human help. In reality, humans are important for guiding AI and checking its results.
 
 ## Open Question
