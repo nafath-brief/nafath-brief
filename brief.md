@@ -20,6 +20,7 @@ Networking connects computers and devices so they can share information and reso
 ## Cybersecurity
 Cybersecurity protects computers, networks, and personal information from online threats. I want to learn how to stay safe on the internet.
 ## Data
+Data is information that can be collected, organized, and analyzed. I want to learn how data helps people understand problems and make better decisions.
 
 ## Misconception in My Track
 
