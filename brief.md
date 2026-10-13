@@ -26,3 +26,4 @@ Data is information that can be collected, organized, and analyzed. I want to le
 One misconception about my learning track is that AI can do everything without human help. In reality, humans are important for guiding AI and checking its results.
 
 ## Open Question
+How can Artificial Intelligence help people solve problems in their daily lives while keeping their personal information safe?
