@@ -2,30 +2,39 @@ Version: NAFATH-V3
 Track: AI
 
 ## Overview
-This repository contains an overview of my learning track, including key topics, common misconceptions, and an open question.
-
+This repository explores six important technology topics related to building a trustworthy AI assistant for public services. Software versioning helps teams communicate changes safely. Retrieval-Augmented Generation (RAG) allows AI systems to use relevant external information when answering questions. Mobile security protects communication between applications and servers. Networking knowledge helps systems support the growing number of connected devices. Cybersecurity practices reduce risks such as prompt injection. Data protection explains how personal information should be handled safely. Together, these topics show that a reliable public-service assistant needs more than a capable AI model. It also requires secure software, trustworthy sources, careful handling of information, and human review. Understanding these foundations helps developers create systems that are useful, safer, and easier to maintain.
 ## Software
 
-Software is used to create applications and solve problems. I want to learn how software works and how to develop useful programs.
+Semantic Versioning uses MAJOR.MINOR.PATCH version numbers. Increase MAJOR when making an incompatible change to the public API. Increase MINOR when adding functionality in a backward-compatible way. Increase PATCH when making backward-compatible bug fixes. Following these rules helps developers understand the impact of a new release and decide whether their software needs changes before upgrading.
+
+Resource: Semantic Versioning 2.0.0 - https://semver.org/
 
 ## AI
-Retrieval-Augmented Generation (RAG) is a method that allows an AI system to retrieve relevant information from trusted documents before generating an answer. It helps reduce incorrect answers by grounding responses in supporting evidence instead of relying only on the model’s stored knowledge. However, RAG does not guarantee accuracy, so the retrieved sources and generated answers should still be checked.
+Retrieval-Augmented Generation (RAG) combines information retrieval with text generation. Before answering a question, the system retrieves relevant information from an external knowledge source and provides it to the language model as context. This can reduce incorrect answers by grounding responses in supporting information. However, RAG does not guarantee that every answer is correct. Retrieved documents may be outdated or irrelevant, and the model may still misunderstand the evidence. Sources and answers should therefore be checked.
 
 Resource: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks - https://arxiv.org/abs/2005.11401
 
 ## Mobile
-Mobile technology allows people to communicate, learn, and access information using smartphones. I want to learn how mobile applications make life easier.
+Apple’s  App Transport Security (ATS) helps enforce secure network connections in iOS apps by requiring appropriate transport security, including HTTPS connections that meet Apple’s security requirements. If an app tries to connect to a plain HTTP endpoint, ATS generally blocks the connection unless an exception has been configured. Developers should use HTTPS and avoid unnecessary security exceptions, because unencrypted HTTP can expose data to interception or modification during transmission.
 
+Resource: Preventing Insecure Network Connections - https://developer.apple.com/documentation/security/preventing-insecure-network-connections
 ## Networking
-Networking connects computers and devices so they can share information and resources. I want to understand how computer networks help people communicate.
+IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses and provides a much larger address space. This matters as the number of connected phones, sensors, appliances, and other devices grows. IPv6 helps support many more uniquely addressable devices and includes improvements to modern network operation. Moving to IPv6 requires planning because IPv4 and IPv6 systems may need to operate together during a transition. Both protocols remain important to understand.
+
+Resource: Internet Protocol, Version 6 (IPv6) Specification - https://www.rfc-editor.org/rfc/rfc8200
 
 ## Cybersecurity
-Cybersecurity protects computers, networks, and personal information from online threats. I want to learn how to stay safe on the internet.
+Prompt injection occurs when untrusted instructions in a user prompt or external content try to manipulate an AI system into ignoring its intended instructions. Direct prompt injection comes from input supplied directly to the system. Indirect prompt injection can be hidden in content the system retrieves, such as a webpage or document. Risk can be reduced by treating retrieved content as untrusted, limiting tools and permissions, validating actions, and requiring human approval for sensitive operations.
+
+Resource: OWASP Top 10 for Large Language Model Applications - https://owasp.org/www-project-top-10-for-large-language-model-applications/
 ## Data
-Data is information that can be collected, organized, and analyzed. I want to learn how data helps people understand problems and make better decisions.
+Anonymization removes identifying information so that a person can no longer reasonably be identified from the data. Pseudonymization replaces direct identifiers with substitutes, but a person may still be identifiable using additional information. Therefore, pseudonymized information generally remains personal data and is still subject to data protection requirements. Truly anonymized data falls outside personal data protection rules when re-identification is no longer reasonably possible. Organizations should assess re-identification risks carefully before describing data as anonymous.
+
+Resource: What is personal data? - https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/personal-information-what-is-it/what-is-personal-data/
 
 ## Misconception in My Track
-One misconception about my learning track is that AI can do everything without human help. In reality, humans are important for guiding AI and checking its results.
+A common misconception about AI is that using Retrieval-Augmented Generation (RAG) guarantees that an AI assistant will always provide correct answers. In reality, RAG supplies relevant external information to support generation, but retrieval can fail and the model can still produce incorrect statements. The paper Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks, in its Abstract, describes RAG as improving generation by combining retrieved passages with a generator; it does not establish that every generated answer is guaranteed to be true. Developers must still evaluate sources and verify important answers.
 
+Resource: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks - https://arxiv.org/abs/2005.11401
 ## Open Question
-How can Artificial Intelligence help people solve problems in their daily lives while keeping their personal information safe?
+How can a public-service AI assistant provide helpful answers while protecting personal data and making it easy for people to verify the information it gives?
