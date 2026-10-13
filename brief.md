@@ -18,7 +18,7 @@ Mobile technology allows people to communicate, learn, and access information us
 Networking connects computers and devices so they can share information and resources. I want to understand how computer networks help people communicate.
 
 ## Cybersecurity
-
+Cybersecurity protects computers, networks, and personal information from online threats. I want to learn how to stay safe on the internet.
 ## Data
 
 ## Misconception in My Track
