@@ -9,8 +9,10 @@ This repository contains an overview of my learning track, including key topics,
 Software is used to create applications and solve problems. I want to learn how software works and how to develop useful programs.
 
 ## AI
+Retrieval-Augmented Generation (RAG) is a method that allows an AI system to retrieve relevant information from trusted documents before generating an answer. It helps reduce incorrect answers by grounding responses in supporting evidence instead of relying only on the model’s stored knowledge. However, RAG does not guarantee accuracy, so the retrieved sources and generated answers should still be checked.
 
-Artificial Intelligence (AI) helps computers learn, solve problems, and perform tasks. I want to understand how AI can help people in everyday life.
+Resource: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks - https://arxiv.org/abs/2005.11401
+
 ## Mobile
 Mobile technology allows people to communicate, learn, and access information using smartphones. I want to learn how mobile applications make life easier.
 
