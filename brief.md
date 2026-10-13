@@ -10,6 +10,7 @@ Software is used to create applications and solve problems. I want to learn how 
 
 ## AI
 
+Artificial Intelligence (AI) helps computers learn, solve problems, and perform tasks. I want to understand how AI can help people in everyday life.
 ## Mobile
 
 ## Networking
