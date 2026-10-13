@@ -6,6 +6,8 @@ This repository contains an overview of my learning track, including key topics,
 
 ## Software
 
+Software is used to create applications and solve problems. I want to learn how software works and how to develop useful programs.
+
 ## AI
 
 ## Mobile
