@@ -3,6 +3,7 @@ Track: AI
 
 ## Overview
 This project explores six technology topics needed to build a trustworthy AI assistant for public services. Software versioning helps teams manage changes safely. AI techniques help the assistant answer questions using reliable information. Mobile security protects connections between the app and its servers. Networking supports communication between connected devices. Cybersecurity helps defend the assistant against threats such as prompt injection. Data protection guides the safe handling of chat logs and personal information. These fields work together to make the assistant more secure, reliable, and easier to maintain. Developers must also test the system, review its sources, and consider privacy risks before deployment. Understanding Retrieval-Augmented Generation (RAG) is especially important because it helps the assistant use relevant external information while answering citizens’ questions.
+The AI track focuses on Retrieval-Augmented Generation (RAG) and how it can reduce incorrect answers by grounding responses in relevant retrieved information.
 ## Software
 
 Semantic Versioning uses MAJOR.MINOR.PATCH version numbers. Increase MAJOR when making an incompatible change to the public API. Increase MINOR when adding functionality in a backward-compatible way. Increase PATCH when making backward-compatible bug fixes. Following these rules helps developers understand the impact of a new release and decide whether their software needs changes before upgrading.
